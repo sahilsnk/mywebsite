@@ -9,8 +9,7 @@ export default function Home() {
           Welcome to <span className="text-blue-600">Sahil&apos;s Website</span>
         </h1>
         <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 max-w-xl mb-8">
-          This is my personal space on the internet. Exciting projects and ideas, I'll be adding my portfolio
-          coming soon 🚀
+          {"This is my personal space on the internet. Exciting projects and ideas, I'll be adding my portfolio coming soon 🚀"}
         </p>
 
         {/* Call-to-Actions */}
