@@ -5,14 +5,6 @@ export default function Home() {
     <div className="flex flex-col min-h-screen bg-gradient-to-b from-white to-gray-100 dark:from-black dark:to-gray-900 text-gray-900 dark:text-gray-100">
       {/* Hero Section */}
       <main className="flex flex-1 flex-col items-center justify-center text-center px-6 py-16">
-        <Image
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={120}
-          height={40}
-          className="dark:invert mb-6"
-          priority
-        />
         <h1 className="text-4xl sm:text-6xl font-bold tracking-tight mb-4">
           Welcome to <span className="text-blue-600">Sahil&apos;s Website</span>
         </h1>
@@ -38,14 +30,6 @@ export default function Home() {
             className="rounded-lg border border-gray-400 dark:border-gray-600 px-5 py-3 font-medium hover:bg-gray-100 dark:hover:bg-gray-800 transition"
           >
             View on GitHub
-          </a>
-          <a
-            href="https://vercel.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="rounded-lg bg-black text-white px-5 py-3 font-medium shadow hover:bg-gray-900 transition"
-          >
-            Deploy with Vercel
           </a>
         </div>
       </main>
