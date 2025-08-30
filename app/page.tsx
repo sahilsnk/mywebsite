@@ -5,11 +5,12 @@ export default function Home() {
     <div className="flex flex-col min-h-screen bg-gradient-to-b from-white to-gray-100 dark:from-black dark:to-gray-900 text-gray-900 dark:text-gray-100">
       {/* Hero Section */}
       <main className="flex flex-1 flex-col items-center justify-center text-center px-6 py-16">
+
         <h1 className="text-4xl sm:text-6xl font-bold tracking-tight mb-4">
           Welcome to <span className="text-blue-600">Sahil&apos;s Website</span>
         </h1>
         <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 max-w-xl mb-8">
-          {"This is my personal space on the internet. Exciting projects and ideas, I'll be adding my portfolio coming soon 🚀"}
+          {"This is my personal space on the internet. Exciting projects and ideas and I'll be adding my portfolio coming soon 🚀"}
         </p>
 
         {/* Call-to-Actions */}
